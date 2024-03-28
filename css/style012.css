@@ -1,0 +1,34 @@
+header, main {
+    width: 48%;
+    height: 700px;
+}
+
+header{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec-01, .sec-02 {
+    width: 100%;
+    border: 2px solid black;
+    height: 45%;
+}
+
+.sec-01 {
+    background-color: blue;
+}
+
+.sec-02 {
+    background-color: gray;
+}

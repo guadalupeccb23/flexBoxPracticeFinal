@@ -1,0 +1,22 @@
+header, main, footer {
+    width: 30%;
+    height: 700px;
+    border: 1px solid black;
+}
+
+header{
+    background-color: yellow;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: gray;
+}
+
+footer {
+    background-color: aqua;
+}

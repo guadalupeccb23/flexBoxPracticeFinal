@@ -1,0 +1,66 @@
+header, footer {
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+header{
+    height: 150px;
+    background-color: yellow;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+nav > section {
+    border: 1px solid black;
+    background-color: pink;
+    height: 40px;
+    flex-basis: 15%;
+    margin-left: 20px;
+}
+
+.search{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid white;
+}
+
+.circle{
+    border-color: 1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+main {
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+main section{
+    border: 1px solid black;
+}
+
+footer {
+    background-color: rgb(61, 118, 210);
+}
+
+
+.main-sec1 {
+    background-color: gray;
+    margin-right: 40px;
+    flex-basis: 25%;
+}
+
+.main-sec2 {
+    background-color: aqua;
+    flex-basis: 75%;
+}

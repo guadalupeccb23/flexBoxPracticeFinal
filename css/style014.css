@@ -1,0 +1,48 @@
+header, aside {
+    width: 20%;
+    height: 700px;
+}
+
+header{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.sec-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec-01, .sec-02 {
+    width: 100%;
+    border: 2px solid black;
+    height: 46%;
+}
+
+.sec-01 {
+    background-color: rgb(10, 129, 213);
+}
+
+.sec-02 {
+    background-color: gray;
+}
+
+aside {
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+footer {
+    height: 140px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+    margin-top: 30px;
+}
